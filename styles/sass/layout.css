@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-0 {
+  flex: 0;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

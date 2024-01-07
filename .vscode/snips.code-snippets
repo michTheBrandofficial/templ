@@ -1,0 +1,7 @@
+{
+	"template expressions": {
+		"prefix": "tl",
+		"body": "${$0}",
+		"sxope": "typescript, html"
+	}
+}

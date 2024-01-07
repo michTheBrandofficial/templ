@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "dev": "deno bundle --watch --config tsconfig.json main.ts main.js"
+  }
+}

@@ -1,0 +1,9 @@
+$base-colors: (red, blue, green, yellow, gray, crimson);
+
+@each $base-color in $base-colors {
+  @for $alpha from 1 through 10 {
+    .bg-#{$base-color}-#{$alpha * 100} {
+      background-color: rgba($color:  $base-color, $alpha: calc($alpha / 10));
+    }
+  }
+}

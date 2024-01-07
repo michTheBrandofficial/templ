@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  &-col {
+    flex-direction: column;
+  }
+  &-row {
+    flex-direction: row;
+  }
+  &-1 {
+    flex: 1;
+  }
+  &-0 {
+    flex: 0;
+  }
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+

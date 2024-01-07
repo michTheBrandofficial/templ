@@ -1,0 +1,24 @@
+{
+  "editor.suggest.preview": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.useInlineCompletions": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.generateMap": false,
+  "editor.hover.enabled": true,
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript"
+  ],
+  "lit-html.tags": [
+    "html",
+    "raw"
+  ],
+  "lit-html.format.enabled": true
+}

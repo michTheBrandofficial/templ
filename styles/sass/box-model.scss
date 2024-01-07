@@ -1,0 +1,39 @@
+$box-model-sizes: (1,2,3,4,5,6,7,8,9,10);
+$base-size: 0.25;
+
+@function genrateApprRem($size, $base-size: $base-size) {
+  $value: $base-size * $size;
+  @return #{$value}rem
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// PADDING, MARGIN.
+@each $size in $box-model-sizes {
+  .p-#{$size} {
+    padding: genrateApprRem($size);
+  }
+  .m-#{$size} {
+    margin: genrateApprRem($size);
+  }
+  .px-#{$size} {
+    padding-left: genrateApprRem($size);
+    padding-right: genrateApprRem($size);
+  }
+  .py-#{$size} {
+    padding-top: genrateApprRem($size);
+    padding-bottom: genrateApprRem($size);
+  }
+  .mx-#{$size} {
+    margin-left: genrateApprRem($size);
+    margin-right: genrateApprRem($size);
+  }
+  .my-#{$size} {
+    margin-top: genrateApprRem($size);
+    margin-bottom: genrateApprRem($size);
+  }
+}
